@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+header,footer {
+  height: 100px;
+  background-color: aliceblue;
+}
+section {
+  float: left;
+  width: 33.333%;
+  height: 300px;
+  border: 1px solid #fff;
+  background-color: gray;
+}
+
+
+footer {
+  clear: both;
+}
