@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  height: 100px;
+  background-color: aliceblue;
+}
+
+section {
+  background-color: rgb(233, 232, 228);
+  border: 1px solid rgb(206, 203, 203);
+}
+.row_1 {
+  height: 100px;
+}
+.row_2 {
+  float: left;
+  height: 200px;
+}
+
+.col1{
+  width: 45%;
+}
+.col2{
+  width: 55%;
+}
+
+footer {
+  clear: both;
+}
