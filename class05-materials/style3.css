@@ -15,10 +15,16 @@ section {
   width: 20%;
 }
 
-.col2{
+section .col2{
   width: 40%;
 }
 
 footer {
   clear: both;
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+  }
 }

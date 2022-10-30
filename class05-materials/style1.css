@@ -21,3 +21,9 @@ section {
 footer {
   clear: both;
 }
+
+@media screen and (max-width: 800px) {
+  section{
+    background-color: blue;
+  }
+}
